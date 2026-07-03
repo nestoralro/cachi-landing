@@ -94,7 +94,7 @@ export const translations = {
     },
     historia: {
       titulo: 'Cachi nace en Zipaquirá, Colombia',
-      texto: 'Cachi significa sal en quechua — la misma sal que los muiscas comerciaban en las minas de Zipaquirá. Hoy Cachi digitaliza el comercio de campo latinoamericano.',
+      texto: 'Cachi significa sal en quechua — la misma sal que los muiscas comerciaban en las minas de Zipaquirá. Hoy Cachi digitaliza el comercio en campo para el comercio latinoamericano.',
     },
     ctaFinal: {
       titulo: '¿Listo para transformar tu fuerza de ventas?',
