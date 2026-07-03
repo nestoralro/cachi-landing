@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Problema } from './components/Problema'
 import { Modulos } from './components/Modulos'
 import { ComoFunciona } from './components/ComoFunciona'
+import { AppEnAccion } from './components/AppEnAccion'
 import { Comparativa } from './components/Comparativa'
 import { Precios } from './components/Precios'
 import { HistoriaMarca } from './components/HistoriaMarca'
@@ -19,6 +20,7 @@ function App() {
         <Problema />
         <Modulos />
         <ComoFunciona />
+        <AppEnAccion />
         <Comparativa />
         <Precios />
         <HistoriaMarca />

@@ -1,6 +1,7 @@
 import { ClipboardList, Landmark, Map, QrCode, ShoppingCart, Truck } from 'lucide-react'
 import { useIdioma } from '../i18n/LanguageContext'
 import { ScrollReveal } from './ui/ScrollReveal'
+import { CapturaDesktop } from './ui/CapturaDesktop'
 
 const ICONOS = [ClipboardList, QrCode, Map, ShoppingCart, Landmark, Truck]
 
@@ -34,6 +35,23 @@ export function Modulos() {
               </ScrollReveal>
             )
           })}
+        </div>
+
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-3">
+          {textos.modulos.galeria.map((captura, indice) => (
+            <ScrollReveal
+              key={captura.archivo}
+              retraso={indice * 100}
+              className="group overflow-hidden rounded-2xl bg-white shadow-md"
+            >
+              <CapturaDesktop
+                src={`/screenshots/${captura.archivo}`}
+                alt={captura.titulo}
+                imgClassName="group-hover:scale-105"
+              />
+              <p className="p-4 text-center font-serif text-lg text-brand-navy">{captura.titulo}</p>
+            </ScrollReveal>
+          ))}
         </div>
       </div>
     </section>

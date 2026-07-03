@@ -48,6 +48,11 @@ export const translations = {
           descripcion: 'Sabe exactamente cuánto stock lleva cada vendedor en su vehículo.',
         },
       ],
+      galeria: [
+        { titulo: 'Mapa de Cobertura en tiempo real', archivo: 'mapa-desktop.png' },
+        { titulo: 'Dashboard Ejecutivo de Tesorería', archivo: 'tesoreria-desktop.png' },
+        { titulo: 'Gestión de Pedidos en Campo', archivo: 'pedidos-desktop.png' },
+      ],
     },
     comoFunciona: {
       titulo: 'Cómo funciona',
@@ -56,6 +61,13 @@ export const translations = {
         'Toma el pedido con precios correctos automáticos',
         'La gerencia ve todo en tiempo real desde el dashboard',
       ],
+    },
+    appEnAccion: {
+      titulo: 'La app en acción',
+      textoLaptop:
+        'El dashboard ejecutivo que la gerencia revisa cada mañana, con métricas de todo el equipo en tiempo real.',
+      textoCelular:
+        'La misma información, siempre a la mano del vendedor en la calle — con o sin internet.',
     },
     comparativa: {
       titulo: 'Por qué Cachi',
@@ -150,6 +162,11 @@ export const translations = {
           descripcion: 'Know exactly how much stock each salesperson carries in their vehicle.',
         },
       ],
+      galeria: [
+        { titulo: 'Real-Time Coverage Map', archivo: 'mapa-desktop.png' },
+        { titulo: 'Executive Treasury Dashboard', archivo: 'tesoreria-desktop.png' },
+        { titulo: 'Field Order Management', archivo: 'pedidos-desktop.png' },
+      ],
     },
     comoFunciona: {
       titulo: 'How it works',
@@ -158,6 +175,13 @@ export const translations = {
         'Takes the order with automatic correct pricing',
         'Management sees everything in real time from the dashboard',
       ],
+    },
+    appEnAccion: {
+      titulo: 'The App in Action',
+      textoLaptop:
+        "The executive dashboard management checks every morning, with real-time metrics for the whole team.",
+      textoCelular:
+        "The same information, always at hand for the salesperson in the field — with or without internet.",
     },
     comparativa: {
       titulo: 'Why Cachi',
