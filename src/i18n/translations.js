@@ -94,7 +94,7 @@ export const translations = {
     },
     historia: {
       titulo: 'Cachi nace en Zipaquirá, Colombia',
-      texto: 'La sal fue la moneda del comercio muisca. Hoy Cachi digitaliza el comercio de campo latinoamericano.',
+      texto: 'Cachi significa sal en quechua — la misma sal que los muiscas comerciaban en las minas de Zipaquirá. Hoy Cachi digitaliza el comercio de campo latinoamericano.',
     },
     ctaFinal: {
       titulo: '¿Listo para transformar tu fuerza de ventas?',
@@ -208,7 +208,7 @@ export const translations = {
     },
     historia: {
       titulo: 'Cachi was born in Zipaquirá, Colombia',
-      texto: 'Salt was the currency of Muisca trade. Today Cachi digitalizes Latin American field commerce.',
+      texto: 'Cachi means salt in Quechua — the same salt the Muisca traded from the Zipaquirá mines. Today Cachi digitalizes Latin American field commerce.',
     },
     ctaFinal: {
       titulo: 'Ready to Transform Your Sales Force?',
